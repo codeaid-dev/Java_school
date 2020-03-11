@@ -1,0 +1,25 @@
+import java.awt.image.BufferedImage;
+
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
+
+public class OpenCV4 {
+	BufferedImage bimage1, bimage2, bimage3;
+	Mat src, part, mosaic;
+	String filename = "kannon.jpg";
+	int[][] rect = {{0, 0}, {0, 0}};
+
+	public static void main(String[] args) {
+		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+		setTitle("OpenCV2");
+		setSize(700, 500);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		MyListener myListener = new MyListener();
+		addMouseListener(myListener);
+		addMouseMotionListener(myListener);
+		setVisible(true);
+		takeImage();
+
+	}
+
+}

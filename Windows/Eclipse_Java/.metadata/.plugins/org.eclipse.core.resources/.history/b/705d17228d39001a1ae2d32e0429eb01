@@ -1,0 +1,28 @@
+import java.awt.image.BufferedImage;
+
+import javax.swing.JFrame;
+
+import org.opencv.core.Mat;
+import org.opencv.core.Rect;
+
+public class Cascade2 extends JFrame {
+	BufferedImage bimage1;
+	Mat src;
+	String filename = "imageB.jpg";
+	String path = "C:\\Users\\codea\\opencv4.1.2\\build\\etc\\haarcascades\\";
+	String cascade1 = "haarcascade_eye_three_eyeglasses.xml";
+	Rect[] faceArea1 = null;
+	String cascade2 = "haarcascade_eye.xml";
+	Rect[] faceArea2 = null;
+	String cascade3 = "haarcascade_frontalface_extended.xml";
+	Rect[] faceArea3 = null;
+	String cascade4 = "haarcascade_frontalface.xml";
+	Rect[] faceArea4 = null;
+
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}
