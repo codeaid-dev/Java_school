@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.opencv.imgproc.Imgproc"/>
-    <fullyQualifiedTypeName name="java.awt.ActiveEvent"/>
-    <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
-    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
-    <fullyQualifiedTypeName name="org.opencv.objdetect.CascadeClassifier"/>
-    <fullyQualifiedTypeName name="org.opencv.videoio.VideoCapture"/>
-</qualifiedTypeNameHistroy>
